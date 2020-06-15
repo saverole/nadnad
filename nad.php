@@ -3,8 +3,8 @@ date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 ulang:
 // function change(){
-echo color("blue","             SCRIPT KHUSUS NAD \n");
-echo color("yellow","           Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
+echo color("red","             SCRIPT KHUSUS NAD \n");
+echo color("white","           Time  : ".date('[d-m-Y] [H:i:s]')."   \n");
 echo color("white","                    Never Extinct         \n");
 echo color("white","                  Format Kode 62*** \n");
         $nama = nama();
