@@ -89,7 +89,7 @@ echo color("blue","  S        C        R      I       P      T   \n");
         echo color("white",".");
         sleep(3);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PAKEGOFOOD0906"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PESANGOFOOD0906"}');
         $message = fetch_value($code1,'"message":"','"');
         echo "\n".color("white"," Message: ".$message);
         echo "\n".color("white"," REFRESH..");
@@ -176,8 +176,8 @@ echo color("blue","  S        C        R      I       P      T   \n");
          $pilih1 = trim(fgets(STDIN));
          if($pilih1 == "y" || $pilih1 == "Y"){
          //if($pilih1 == "y" && strpos($no, "628")){
-         echo color("white","xxxxxxxxxxxx PIN default = 989898 xxxxxxxxxxx")."\n";
-         $data2 = '{"pin":"989898"}';
+         echo color("white","xxxxxxxxxxxx PIN default = 270593 xxxxxxxxxxx")."\n";
+         $data2 = '{"pin":"270593"}';
          $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
          echo "Otp pin: ";
          $otpsetpin = trim(fgets(STDIN));
