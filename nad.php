@@ -3,14 +3,14 @@ date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 ulang:
 // function change(){
-echo color("red","+++++++++++      +++++++++     ++++      +++   \n");
-echo color("red","+++++++++++      +++++++++     ++++++    +++   \n");
-echo color("red","   ++++          ++            +++ +++   +++   \n");
-echo color("red","   ++++          +++++++++     +++  +++  +++   \n");
-echo color("red","   ++++          +++++++++     +++   +++ +++   \n");
-echo color("red","   ++++                 ++     +++    ++++++   \n");
-echo color("red","   ++++          +++++++++     +++     +++++   \n");
-echo color("red","   ++++          +++++++++     +++      ++++   \n");
+echo color("red","+++++++++++     +++++++++     ++++      +++   \n");
+echo color("red","+++++++++++     +++++++++     ++++++    +++   \n");
+echo color("red","   ++++         ++            +++ +++   +++   \n");
+echo color("red","   ++++         +++++++++     +++  +++  +++   \n");
+echo color("red","   ++++         +++++++++     +++   +++ +++   \n");
+echo color("red","   ++++                ++     +++    ++++++   \n");
+echo color("red","   ++++         +++++++++     +++     +++++   \n");
+echo color("red","   ++++         +++++++++     +++      ++++   \n");
 echo color("blue","  S        C        R      I       P      T   \n");
 
 
